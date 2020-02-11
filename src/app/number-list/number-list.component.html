@@ -1,0 +1,13 @@
+<div class="buttonDiv">
+    <button *ngIf="!sortState" class="button" (click)="sortMethodA()">Sorting ascendingly</button>
+    <button *ngIf="sortState" class="button" (click)="sortMethodD()">Sorting descendingly</button>
+</div>
+<div class= "number-list">
+    <ul *ngFor="let person of persons">
+        <li>
+            <strong>{{ person.name }}:</strong>    {{person.number}}
+            <button class = "button" (click)="deletContact($event, person)" >Delete</button>
+        </li>
+        
+    </ul>
+</div>

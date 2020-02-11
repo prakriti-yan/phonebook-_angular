@@ -1,0 +1,25 @@
+<div id= "Alert" *ngIf = "alert===true">
+    Both name and number are needed!
+</div>
+
+<div id= "notice" *ngIf = "notice===true">
+   New contact was added!
+</div>
+<div class = "Form">
+<form  
+(ngSubmit) = "onSubmit()" >
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input  required [(ngModel)]="person.name"
+        type="text" name='name' #name="ngModel">    
+        </div>
+    <div class="form-group">
+        <label for="number">Number</label>
+        <input required [(ngModel)]="person.number"
+        type = "text" name='number' #number="ngModel">
+    </div>
+    <div class="buttonDiv">
+        <button class="button" type= "submit" >Add</button>
+    </div>
+</form>
+</div>
