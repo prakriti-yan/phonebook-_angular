@@ -1,7 +1,7 @@
 <div id= "Alert" *ngIf = "alert===true">
     Both name and number are needed!
 </div>
-
+<h2 class="title">Add a new contact</h2>
 <div id= "notice" *ngIf = "notice===true">
    New contact was added!
 </div>
@@ -9,12 +9,13 @@
 <form  
 (ngSubmit) = "onSubmit()" >
     <div class="form-group">
-        <label for="name">Name</label>
+        <label for='name'><strong>Name</strong></label>
         <input  required [(ngModel)]="person.name"
-        type="text" name='name' #name="ngModel">    
-        </div>
-    <div class="form-group">
-        <label for="number">Number</label>
+        type="text" name='name' #name="ngModel">  
+        <br>  
+        <!-- </div>
+    <div class="form-group"> -->
+        <label for='number'><strong>Number</strong></label>
         <input required [(ngModel)]="person.number"
         type = "text" name='number' #number="ngModel">
     </div>

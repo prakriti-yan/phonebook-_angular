@@ -5,14 +5,17 @@
     /* text-shadow: 0.125rem 0.125rem 0.5rem #a1b1e3; */
     color: #44373f;
 }
-h2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #d3aca5;
-    font-size: 35px;
-    /* text-shadow: 0.125rem 0.125rem 0.5rem #858494; */
 
-}
-
+.content{
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    padding:0.3125rem;
+    overflow-x: auto;
+    justify-content: center;
+  }
+ 
 
 body {
     margin-bottom: 3.125rem;

@@ -1,7 +1,28 @@
+.title{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #BC878A;
+  font-size: 35px;
+  /* text-shadow: 0.125rem 0.125rem 0.5rem #858494; */
+
+}
+
 .number-list{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #44373f;
     font-size: 20px;
+}
+
+.number-list button {
+  margin-left: 32em;
+}
+
+.name{
+  position: absolute;
+}
+
+.number{
+  position: absolute;
+  margin-left: 10em;
 }
 
 .button{
