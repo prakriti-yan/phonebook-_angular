@@ -6,10 +6,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `npm install` to install all the needed packages for the project.
 
-## Development server
+## Development server to run locally
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Firebase hosting
 
-The database is from firebase cloud store and the website is hosted here: https://phone-book-bd825.firebaseapp.com/
+Command `ng build --prod` was used to create static folder dist/.
+The web is then hosted online by firebase in here: https://phone-book-bd825.firebaseapp.com/
