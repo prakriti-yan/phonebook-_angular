@@ -50,7 +50,6 @@ export class NumberListComponent implements OnInit {
       }
   
     deletContact(event, person){
-      // console.log("Deleting contact!!!")
       if (window.confirm(`Are you sure to delete ${person.name} from phone book?`)){
       this.dataService.delete(person)}
 
@@ -60,7 +59,6 @@ export class NumberListComponent implements OnInit {
     this.dataService.getPersons().subscribe(persons=>{
       this.persons = persons
     })
-    // this.persons =this.dataService.getPersons()
   }
 
 }

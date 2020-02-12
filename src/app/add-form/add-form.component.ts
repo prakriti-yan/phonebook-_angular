@@ -1,18 +1,15 @@
 import { Persons } from './../models/persons';
 import { DataService } from './../data.service';
 import { Component, OnInit } from '@angular/core';
-// import { NumberListComponent } from '../number-list/number-list.component'
-import { FormBuilder, FormControl } from '@angular/forms'
 
 @Component({
   selector: 'add-form',
   templateUrl: './add-form.component.html',
   styleUrls: ['./add-form.component.css']
 })
-// @NgModule
+
 export class AddFormComponent implements OnInit {
 
-  // persons: Persons
   person: Persons = {
     name: '',
     number: ''

@@ -3,7 +3,6 @@
     background-color: rgb(241, 197, 204);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
-	/* font-size: 20; */
 	border: 1px gray solid;
 	border-radius: 5;
 	padding: 15px;
@@ -26,22 +25,16 @@
 .form-group{
     padding-left: 1em;
     padding-bottom: 0.25em;
-    /* background-color: pink; */
-    /* line-height: 1.25; */
 }
 
 .form-group input {
-    /* position: absolute; */
     margin-left: 9em;
 }
 
 .title{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    /* color: #d3aca5; */
     color: #BC878A;
     font-size: 35px;
-    /* text-shadow: 0.125rem 0.125rem 0.5rem #858494; */
-
 }
 
 .form-group label{
@@ -62,5 +55,4 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #44373f;
     font-size: 20px;
-
 }
