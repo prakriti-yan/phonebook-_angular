@@ -6,10 +6,10 @@
 <div class= "number-list">
     <ul *ngFor="let person of persons">
         <li>
-            <span class = "name"><strong>{{ person.name }}:</strong></span> 
+            <span class = "name"><strong>{{ person.name }}:</strong></span>
             <span class = "number">{{person.number}}</span>
             <button class = "button" (click)="deletContact($event, person)" >Delete</button>
         </li>
-        
+
     </ul>
 </div>

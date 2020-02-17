@@ -13,14 +13,13 @@ export class AddFormComponent implements OnInit {
   person: Persons = {
     name: '',
     number: ''
-  } 
+  }   // declare the person as type Persons and declare an object with empty title.
   alert: boolean = false
   notice: boolean = false
 
-  
   constructor(
     private dataService: DataService,
-    ) { 
+    ) {
 
     }
 
@@ -43,7 +42,7 @@ export class AddFormComponent implements OnInit {
         this.notice = false
       }, 3000)
       }
-       
+
     }
-  
+
 }
